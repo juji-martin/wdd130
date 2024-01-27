@@ -1,0 +1,19 @@
+#first-paragragh {
+    color:red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#second-paragraph {
+color:blueviolet;
+background-color:brown;
+font-size: 2em;
+font-family:'Courier New', Courier, monospace
+}
+#other-paragraph {
+    color:blueviolet;
+    background-color:brown;
+    font-size: 2em;
+    font-family:'Courier New', Courier
+
+}
