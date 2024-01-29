@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #32c570   ;
-  --secondary-color: #3F88C5 ;
+  --primary-color: #df235b   ;
+  --secondary-color: #3e5891 ;
   --accent1-color: #e7d258;
-  --accent2-color: #F49D37;
+  --accent2-color: ;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Lemon";
