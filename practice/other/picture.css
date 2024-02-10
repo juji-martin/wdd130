@@ -1,0 +1,35 @@
+img {
+    display: block;
+    margin: 100px auto;
+    max-width: 100%;
+}
+
+#background {
+    height: 500px;
+    width: 1200px auto;
+    background-color: grey;
+}
+
+.logo {
+    border-radius:50%;
+    width: 250px;
+    border: 10px solid black;
+  
+}
+.hero {
+    border-radius:50%;
+    width:250px;
+    border: 10px solid black;
+}
+.icon {
+    border-radius:50%;
+    width:250px;
+    border: 10px solid black;
+}
+footer{
+    background-color: grey;
+    width: 1300px;
+    margin: auto;
+    text-align: center45;
+
+}

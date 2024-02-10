@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    color:aliceblue;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+
+body{
+    background-color: #fca6c9;
+    text-align: center;
+    color: white;
+    width: 500px;
+    margin: 100px auto;
+}
+
+main{
+    max-width: 500px;
+    margin: 0-auto;
+}
+
+img{
+    width: 250px;
+}
+
+ol{
+    font-weight: bold;
+    color: black;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1.5; 
+}
+
+blockquote {
+    font-weight: bold;
+    font-size: 2.3em;
+    margin: 80px;
+    line-height: 1.5;
+
+
+}
+
+footer{
+    color: black;
+    line-height: 0.2;
+        font-size: 0.9em;
+}
+
+#thing{
+    font-weight: 900;
+}
+
+#edu{
+    font-size: 1.1em;
+}

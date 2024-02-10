@@ -1,0 +1,31 @@
+#first-paragragh {
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#second-paragraph {
+color:blueviolet;
+background-color:brown;
+font-size: 2em;
+font-family:'Courier New', Courier, monospace
+}
+#other-paragraph {
+    color:blueviolet;
+    background-color:brown;
+    font-size: 2em;
+    font-family:'Courier New', Courier
+}
+
+img {
+    width: 400px;
+    border: 5px solid black;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(221, 203, 250);
+}
