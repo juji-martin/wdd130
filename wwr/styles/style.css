@@ -1,12 +1,23 @@
 #background {
     height:725px;
-    background-color: black;
+    background-color: rgb(188, 147, 226);
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 body {
     background-color: #ebeeea;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2{
+    margin: 0;
+}
+
 header {
-    background-color:rgba(94, 167, 216, 0.7)
+    background-color:rgb(43, 46, 48, 0.7);
 }
 nav a:hover {
     background-color: black;
@@ -14,13 +25,15 @@ nav a:hover {
 }
 
 #content {
-max-width: 1600px;
-margin: 0 auto;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
+    color: white;
 }
 
 #hero-msg h1 {
@@ -39,56 +52,107 @@ main section {
 }
 
 footer {
-    background-color: rgba(94, 167, 216, 0.7);
+    background-color: rgb(43, 46, 48, 0.7);
+    padding: 25px 50px;
+    margin-top:200px
 }
 .book, .join {
-    background-color: blueviolet;
+    background-color:  rgb(188, 147, 226);
+    color:black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
-    background-color: blueviolet;
+    background-color: rgb(188, 147, 226);
 }
 
 .msg {
-    background-color: #ebeeea;
+    background-color: rgb(43, 46, 48, 0.7);
+    line-height:1.5em;
+    padding: 35px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 footer a  {
-    background-color: #ebeeea;
+    background-color: rgb(43, 46, 48, 0);
     text-decoration: none;
+    color: rgb(188, 147, 226);
 }
 
 footer a:hover {
     background-color: #ebeeea;
 }
 
-msg p {
-    background-color: #ebeeea;
+.msg p {
+    background-color: rgb(43, 46, 48, 0);
+    font-size: .8em;
+    padding-bottom: 15px;
+    color: white;
 }
 
-msg h2 {
-    background-color: #ebeeea;
+.msg h2 {
+    background-color: rgb(43, 46, 48, 0);
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    color: rgb(188, 147, 226);
 }
 
 .home-title {
     background-color: #ebeeea;
+    font-family: 'Kranky', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    color: rgb(188, 147, 226);
 }
 h4 {
     background-color: #ebeeea;
 }
 
 .icon {
-    width:60px
+    width:60px;
+    padding-top: 10px;
 }
 footer p {
-    font-size:1.2em
+    font-size:1.2em;
+    color: rgb(188, 147, 226);
 }
 
 footer p a:hover {
     text-decoration: underline;
+   
+    
 }
 
 .logo {
     width: 100px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+    
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    
+}
+
+.card-img {
+    border: 10px solid  rgb(188, 147, 226);
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+#hero-img {
+    width: 100%;
 }
