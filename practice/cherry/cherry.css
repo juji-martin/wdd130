@@ -1,0 +1,37 @@
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+}
+#card-right{
+background-color: rgb(167, 166, 166);
+grid-column: 2/3;
+grid-row: 1/4;
+}
+
+#card-left{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+#cherries{
+color:rgb(146, 4, 4);
+font-size: 5em;
+font-weight: 800;
+
+
+}
+#title{
+    font-size: 8em;
+    z-index: 1;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
