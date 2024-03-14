@@ -1,0 +1,44 @@
+.card{
+    text-align: center; 
+    box-sizing: border-box;
+    max-width: 300px;
+    margin: 1mm auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.post-date{
+    color:rgb(137, 183, 226);
+}
+
+h1{
+    color:black;
+}
+
+main{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    background-color: gray;
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: white;
+}
+
+footer div{
+    background-color:#3f5b8b ;
+    padding: .5em;
+}
